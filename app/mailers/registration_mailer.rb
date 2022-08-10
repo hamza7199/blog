@@ -1,7 +1,6 @@
-# frozen_string_literal: true
-
 class RegistrationMailer < ApplicationMailer
   default from: 'hamza.naveed@xprolabs.com'
+  
   CONTACT_EMAIL = 'hamza.naveed@xprolabs.com'
   def submission(message)
     @message = message
